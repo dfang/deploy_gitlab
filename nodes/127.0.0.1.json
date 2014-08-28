@@ -1,0 +1,18 @@
+{
+  "gitlab": {
+    "host": "example.com",
+    "url": "http://example.com/",
+    "email_from": "gitlab@example.com",
+    "support_email": "support@example.com",
+    "database_adapter": "postgresql",
+    "database_password": "passw0rd"
+  },
+  "postgresql": {
+    "password": {
+      "postgres": "psqlpass"
+    }
+  },
+  "run_list": [
+    "gitlab::default"
+  ]
+}
